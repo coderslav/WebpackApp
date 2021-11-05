@@ -1,0 +1,45 @@
+{
+  "name": "webpack_first_experience",
+  "version": "1.0.0",
+  "description": "webpack learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open",
+    "json-server": "json-server --watch json-serverDB.json"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack",
+    "webpackdevserver",
+    "hmr",
+    "jsonserver",
+    "linter",
+    "dev",
+    "prod"
+  ],
+  "author": "coderslav <coderslav@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.5.0",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "eslint": "^8.1.0",
+    "eslint-webpack-plugin": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "json-server": "^0.17.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

@@ -1,0 +1,27 @@
+@import "~normalize.css";
+@import "~styles/fonts.css";
+
+body{
+    font-family: Ubuntu, sans-serif;
+}
+.container{
+    padding-top: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+.logo{
+    background-image: url("~assets/images/GitHub_black.png");
+    background-size: cover;
+    width: 559px;
+    height: 559px;
+    margin: 0 auto;
+}
+.json-backend{
+    cursor: pointer;
+}
+.analytic-count-container{
+    text-align: center;
+}
